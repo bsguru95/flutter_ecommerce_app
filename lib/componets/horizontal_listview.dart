@@ -30,7 +30,7 @@ class HorizontalList extends StatelessWidget {
 
           Category(
             image_location: 'images/cats/informal.png',
-            image_caption: 'formal',
+            image_caption: 'informal',
           ),
         ],
       ),
@@ -56,7 +56,7 @@ class Category extends StatelessWidget {
             title: Image.asset(
               image_location,
               width: 100.0,
-              height: 80.0,
+              height: 60.0,
             ),
             subtitle: Container(
               alignment: Alignment.topCenter,
